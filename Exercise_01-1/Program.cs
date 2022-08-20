@@ -1,19 +1,23 @@
 ﻿int[] array = { -4, -8, 8, 2 };
 
-int [] ReverseNumber (int[] arr)
- {
-    for(int i=0; i<arr.Length; i++) {
+int[] ReverseNumber(int[] arr)
+{
+    for (int i = 0; i < arr.Length; i++)
     {
-            arr[i] = -arr[i];
+        arr[i] = -arr[i];
 
     }
     retrurn arr;
 }
 
-void PrintArray(int[] arr);
-for (int i = 0; i < arr.Length; i++)
+void PrintArray(int[] arr)
 {
-    Console.WriteLine(array[i]);
+
+    for (int i = 0; i < arr.Length; i++)
+    {
+        Console.WriteLine($"{arr[i]}");
+    }
 }
+
 
 PrintArray(ReverseNumber(array));
