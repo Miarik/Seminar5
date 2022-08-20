@@ -1,0 +1,28 @@
+int[] FillArray(int size)
+{
+    Random random = new Random();
+    int[] arr = new int[size];
+
+    for (int i = 0; i < size; i++)
+    {
+        arr[i] = random.Next(0, 100); 
+    }
+    return arr;
+}
+
+int[] PairMultiplication(int[] arr) {
+    int[] newArr = new int [arr.Length]; 
+    if (arr.Length%2 ==0 ) 
+    {
+        int size = arr.Length/2;
+    }
+    else
+    {
+        int size = (arr.Length-1)/2;
+        newArr[(arr.Length/2)+1] = arr[arr.Length/2+1]
+    }
+    for (int i = 0; i < length; i++)
+    {
+        
+    }
+}
