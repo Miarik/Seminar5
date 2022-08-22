@@ -7,7 +7,7 @@ int[] ReverseNumber(int[] arr)
         arr[i] = -arr[i];
 
     }
-    retrurn arr;
+    return arr;
 }
 
 void PrintArray(int[] arr)
@@ -15,9 +15,9 @@ void PrintArray(int[] arr)
 
     for (int i = 0; i < arr.Length; i++)
     {
-        Console.WriteLine($"{arr[i]}");
+        Console.Write($"{arr[i]}");
     }
 }
 
-
 PrintArray(ReverseNumber(array));
+Console.WriteLine();
